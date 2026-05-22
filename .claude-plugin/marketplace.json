@@ -1,0 +1,14 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "parallight-beta",
+  "description": "Parallight Lab — BETA channel (Claude Code). Pre-release builds for invited testers; points at the beta backend.",
+  "owner": { "name": "Marvin Gao", "email": "marvin.gao.cs@gmail.com" },
+  "plugins": [
+    {
+      "name": "parallight-lab",
+      "description": "Parallight Lab (BETA, pre-release). Same plugin as the public release, but points at the beta backend (beta.lab-agent.parallight.ai). For invited testers.",
+      "category": "development",
+      "source": "./plugins/parallight-lab"
+    }
+  ]
+}
